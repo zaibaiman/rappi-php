@@ -1,0 +1,27 @@
+version: '2'
+services:
+  web:
+    image: hitalos/laravel:latest
+    container_name: rappi-web
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/var/www
+    links:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: rappidb
+      DB_USERNAME: rappi
+      DB_PASSWORD: rappi
+      DB_CONNECTION: pgsql
+  db:
+    image: postgres:9.4-alpine
+    container_name: rappi-db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: rappidb
+      POSTGRES_USER: rappi
+      POSTGRES_PASSWORD: rappi
