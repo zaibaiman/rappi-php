@@ -1,7 +1,6 @@
 ## About Rappi-PHP
 
-Rappi-PHP es una pequeña aplicación Web que trata de imitar la aplicación [Rappi](https://www.rappi.com.mx), y la finalidad es demostrar mis capacidades para desarrollar aplicaciones de este tipo.
-
+Rappi-PHP es una pequeña aplicación Web que trata de imitar la aplicación [Rappi](https://www.rappi.com.mx).
 Rappi-PHP esta desarrollada con Laravel 5.5
 
 ## Ejecutar
@@ -15,4 +14,6 @@ docker-compose up
 ```
 
 ## Capturas de Pantalla
-![alt text](https://drive.google.com/file/d/14wf_liKrtHIGFBVIF8PoYsN0nI4Nrqq4/view?usp=sharing)
+![alt text](misc/screenshot-1.png?raw=true)
+![alt text](misc/screenshot-2.png?raw=true)
+![alt text](misc/screenshot-3.png?raw=true)
