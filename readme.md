@@ -13,7 +13,7 @@ Abrir la terminal de docker, ir a la carpeta rappi-php y ejecutar el comando:
 docker-compose up
 ```
 
-Luego, es necesario alimentar la base de datos con informacin inicial, para esto es necesario entra al contenedor de la aplicación ejecutando el siguiente comando:
+Luego, es necesario alimentar la base de datos con información inicial, para esto es necesario que abra una nueva terminal de docker para luego entrar al contenedor de la aplicación ejecutando el siguiente comando:
 
 ```
 docker exec -it rappi-web /bin/sh
